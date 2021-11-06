@@ -1,0 +1,1280 @@
+1
+00:00:01,520 --> 00:00:02,210
+Hi, everyone.
+
+2
+00:00:02,240 --> 00:00:05,780
+So in this lesson, we are going to learn what are two dimensional arrays?
+
+3
+00:00:07,370 --> 00:00:13,780
+So consider, for example, you want to implement boardgame, so let us consider that you want to implement
+
+4
+00:00:13,940 --> 00:00:14,810
+tic tac toe game.
+
+5
+00:00:16,400 --> 00:00:17,690
+So in tic tac toe.
+
+6
+00:00:19,970 --> 00:00:25,250
+We have a basically two dimensional, Larry, and basically there are three rules and three columns.
+
+7
+00:00:26,350 --> 00:00:28,990
+So this matrix has a dimension of three corsetry.
+
+8
+00:00:30,110 --> 00:00:33,530
+Now, with the current knowledge that we have, how can we store tic tac toe?
+
+9
+00:00:35,400 --> 00:00:41,250
+So basically, the first option is with the use of three one damisch, Larry, so I will create three
+
+10
+00:00:41,250 --> 00:00:41,610
+areas.
+
+11
+00:00:41,790 --> 00:00:44,340
+So even a two and three.
+
+12
+00:00:47,110 --> 00:00:53,770
+So even will correspond to the first row, U2 is going to correspond for the second and it is for the
+
+13
+00:00:53,770 --> 00:00:55,030
+third row of the tic tac toe.
+
+14
+00:00:55,060 --> 00:01:00,640
+So this even will store the data president in the first year to store the data presented in the second
+
+15
+00:01:00,640 --> 00:01:03,820
+row, and it will show the data presented in the third row.
+
+16
+00:01:04,180 --> 00:01:08,920
+So, for example, if you do something here, if you are going to store something here, then that data
+
+17
+00:01:08,920 --> 00:01:09,400
+will be stored.
+
+18
+00:01:09,400 --> 00:01:12,540
+At this point, if you want to store something at this location.
+
+19
+00:01:12,820 --> 00:01:16,760
+So you have to go to edit three and add zero next year.
+
+20
+00:01:16,800 --> 00:01:17,470
+Saw the data.
+
+21
+00:01:17,680 --> 00:01:19,000
+So this is the first option.
+
+22
+00:01:20,200 --> 00:01:22,100
+But this option is not very good.
+
+23
+00:01:22,390 --> 00:01:26,350
+Why this is not very good because suppose you want to implement a chess game.
+
+24
+00:01:26,740 --> 00:01:31,150
+So in chess you have eight Crossett So basically you have to take it one day.
+
+25
+00:01:32,020 --> 00:01:33,480
+So even to eight.
+
+26
+00:01:34,180 --> 00:01:38,650
+So I have to take it one day at a one dimensional Larry.
+
+27
+00:01:39,940 --> 00:01:42,880
+So this first option is not a very good option.
+
+28
+00:01:44,130 --> 00:01:47,920
+Now, the second option for implementing tic tac toe, what can I do?
+
+29
+00:01:47,940 --> 00:01:49,980
+So in total, I have nine cells.
+
+30
+00:01:50,580 --> 00:01:52,310
+So what I will do, I will create a one.
+
+31
+00:01:52,320 --> 00:01:56,170
+Deery And in this one I will basically have.
+
+32
+00:01:56,340 --> 00:01:58,320
+So this one, there will be a size nine.
+
+33
+00:01:58,350 --> 00:02:02,220
+So the next will be zero and the last index is going to be eight.
+
+34
+00:02:03,360 --> 00:02:08,640
+Now, for example, if you want to insert something at this location, so if you do the indexing so
+
+35
+00:02:08,640 --> 00:02:11,770
+zero one, do you remember the indexing always starts on zero.
+
+36
+00:02:12,090 --> 00:02:13,320
+So this is 012.
+
+37
+00:02:13,650 --> 00:02:16,440
+Now, what I want to do, I want to store something at this location.
+
+38
+00:02:16,710 --> 00:02:19,500
+So it's rule number two and it indexes one.
+
+39
+00:02:21,000 --> 00:02:27,270
+So I want to store something at this location, TUCUMÁN and what this location will be in this area.
+
+40
+00:02:27,480 --> 00:02:28,920
+So basically, if you count.
+
+41
+00:02:28,920 --> 00:02:32,310
+So one, two, three, four, five, six, seven and eight.
+
+42
+00:02:32,500 --> 00:02:34,770
+So its location will be seven.
+
+43
+00:02:36,250 --> 00:02:41,110
+So you will store whatever you are going to store at this location that will be stored at a Nexus seven
+
+44
+00:02:41,320 --> 00:02:42,850
+corresponding to this one, that.
+
+45
+00:02:43,340 --> 00:02:47,980
+So this is our second option of implementing the tic tac toe again.
+
+46
+00:02:48,130 --> 00:02:52,480
+So the problem with this approach is basically you have to calculate, you have to do some calculation
+
+47
+00:02:52,480 --> 00:02:55,480
+to find out the index in the.
+
+48
+00:02:57,030 --> 00:03:02,310
+But the third option of implementing tic tac toe is with the help of to damage Hillary's.
+
+49
+00:03:05,150 --> 00:03:07,260
+So now let us see what are to them.
+
+50
+00:03:07,850 --> 00:03:11,640
+So, as the name suggests, there will be two dimensions, just like three Grasstree.
+
+51
+00:03:11,900 --> 00:03:15,280
+So basically there are two dimensions in chess.
+
+52
+00:03:15,290 --> 00:03:17,390
+We have two dimensions, eight closet.
+
+53
+00:03:18,110 --> 00:03:21,590
+So now let's see how we will create our two damisch Larry.
+
+54
+00:03:23,580 --> 00:03:26,370
+So, for example, if you want to create an area, what you will write.
+
+55
+00:03:27,540 --> 00:03:32,370
+You will read it if you want to create a different picture than the name of the ad and then let's say
+
+56
+00:03:32,370 --> 00:03:35,190
+I want Lente five, so what will happen?
+
+57
+00:03:35,190 --> 00:03:40,890
+You will get an ad, the first index is going to be zero and the last index is going to be four.
+
+58
+00:03:41,820 --> 00:03:44,430
+Now, if you want to create a two dimensional activity.
+
+59
+00:03:44,430 --> 00:03:44,840
+All right.
+
+60
+00:03:44,850 --> 00:03:47,910
+So I want to create the area of integers.
+
+61
+00:03:47,910 --> 00:03:51,870
+So I will give the data type then the name of the array.
+
+62
+00:03:51,900 --> 00:03:56,220
+So I want to be to the name of that is B now you have to give two things.
+
+63
+00:03:56,460 --> 00:04:00,480
+So here the ad is a one dimensional, so you just have to give the lente.
+
+64
+00:04:01,110 --> 00:04:03,210
+But the good Michelet is.
+
+65
+00:04:03,600 --> 00:04:04,570
+So there are two damage.
+
+66
+00:04:04,590 --> 00:04:07,790
+And first I have rules and I have columns.
+
+67
+00:04:08,430 --> 00:04:10,620
+So what I will do, I will write like this.
+
+68
+00:04:12,070 --> 00:04:19,210
+One box and second box, so this first box will contain how many rules and the second box will contain
+
+69
+00:04:19,210 --> 00:04:20,080
+how many columns.
+
+70
+00:04:20,800 --> 00:04:27,450
+So for example, if I give three of my four, three and four and so what will be my duty metrics?
+
+71
+00:04:27,460 --> 00:04:31,400
+So I will have three rows and I will have four columns.
+
+72
+00:04:31,780 --> 00:04:33,310
+So this is the number of rules.
+
+73
+00:04:33,310 --> 00:04:34,150
+So three rules.
+
+74
+00:04:35,380 --> 00:04:41,500
+So these are the rules and I want four columns, so this is the first column, the second column, third
+
+75
+00:04:41,500 --> 00:04:45,550
+and fourth column, and we know the indexing in the area starts from zero.
+
+76
+00:04:45,580 --> 00:04:48,460
+So similarly, the indexing will start from zero to zero.
+
+77
+00:04:48,460 --> 00:04:49,600
+One, two, three.
+
+78
+00:04:49,930 --> 00:04:52,980
+I have four columns and zero one two.
+
+79
+00:04:53,170 --> 00:04:54,520
+So I have three rows.
+
+80
+00:04:55,620 --> 00:05:01,020
+So what is the lasting next lasting Nix's basically to comadre, what is the first index?
+
+81
+00:05:01,050 --> 00:05:03,460
+So first index zero zero.
+
+82
+00:05:04,590 --> 00:05:11,050
+So now let's say if you want to take input, so how can you take input?
+
+83
+00:05:11,460 --> 00:05:12,900
+So in Eddie.
+
+84
+00:05:15,370 --> 00:05:20,700
+If you want to take input, so what we have to do, I will write how many elements you want to insert,
+
+85
+00:05:21,070 --> 00:05:23,740
+then I will take the number of elements.
+
+86
+00:05:24,340 --> 00:05:30,160
+And then basically you have to choose a follow up starting from Zero and I in and I plus plus.
+
+87
+00:05:30,160 --> 00:05:35,230
+And then you will do something like this in each of these, the name of the area.
+
+88
+00:05:35,740 --> 00:05:38,570
+So for taking the input from the user, we have to do this thing.
+
+89
+00:05:39,100 --> 00:05:44,060
+Now let's see how we can take input into the Matrix and Two-dimensional area.
+
+90
+00:05:45,220 --> 00:05:45,930
+So let's see.
+
+91
+00:05:46,210 --> 00:05:48,570
+So there are two ways of taking input.
+
+92
+00:05:48,820 --> 00:05:50,180
+So what is the first option?
+
+93
+00:05:50,210 --> 00:05:53,170
+So the first option is basically take input throughways.
+
+94
+00:05:55,250 --> 00:05:58,280
+And the second option is basically they can put calombaris.
+
+95
+00:05:59,510 --> 00:06:04,670
+So what is the meaning of always so it always is very common and we will use this only.
+
+96
+00:06:06,120 --> 00:06:11,340
+So it always means taking part for the 08 role, then taking part for the first two, then taking part
+
+97
+00:06:11,340 --> 00:06:11,940
+for the second.
+
+98
+00:06:12,540 --> 00:06:15,870
+First of all, I have to do I will take how many rules and how many columns.
+
+99
+00:06:15,960 --> 00:06:18,990
+So for these two, the first step is going to be same.
+
+100
+00:06:18,990 --> 00:06:21,390
+You will create a truly matrix.
+
+101
+00:06:21,390 --> 00:06:22,860
+So let's set number of rules.
+
+102
+00:06:22,860 --> 00:06:25,370
+That hundred number of columns are also 100.
+
+103
+00:06:25,710 --> 00:06:28,990
+Then you will take two variables, four rows and columns.
+
+104
+00:06:29,220 --> 00:06:30,780
+So let's call them Immonen.
+
+105
+00:06:31,080 --> 00:06:35,610
+Then you will take how many rules and they will take how many columns.
+
+106
+00:06:35,640 --> 00:06:38,130
+So here M signifies rules.
+
+107
+00:06:39,230 --> 00:06:44,420
+And it's basically the number of columns, so the first step is going to be very simple, just like
+
+108
+00:06:44,420 --> 00:06:45,140
+we used to take.
+
+109
+00:06:45,350 --> 00:06:49,440
+And here he will take two variables, number of rules and number of columns.
+
+110
+00:06:50,150 --> 00:06:55,000
+Now the defense will come that you are going to take input railways or column ways.
+
+111
+00:06:56,090 --> 00:07:02,960
+So let's say if the value of em is, let's say three and and is two, so basically ridiculous situation.
+
+112
+00:07:03,410 --> 00:07:05,920
+So I'm going to have three rows and only two columns.
+
+113
+00:07:05,930 --> 00:07:07,850
+So three rows and two columns.
+
+114
+00:07:09,680 --> 00:07:16,970
+So this is a situation, this is 012 and this is zero and one now let's talk about railways in port.
+
+115
+00:07:18,810 --> 00:07:24,190
+So if you want to take in Butros, let's take input for the name of the name of the two reraise.
+
+116
+00:07:24,690 --> 00:07:27,270
+So first you will take the input four 00.
+
+117
+00:07:28,270 --> 00:07:29,470
+You will write a scene.
+
+118
+00:07:31,070 --> 00:07:33,560
+Zero zero, then you will write zero one.
+
+119
+00:07:35,120 --> 00:07:37,070
+Then you will write one zero.
+
+120
+00:07:39,000 --> 00:07:41,440
+So this is for the first rule, first rule has been over.
+
+121
+00:07:41,490 --> 00:07:45,800
+Now I'm taking input for Secondo and Indexes one.
+
+122
+00:07:46,290 --> 00:07:49,460
+So since the first column, this is the second column then.
+
+123
+00:07:49,470 --> 00:07:52,320
+So then I will take the input for this.
+
+124
+00:07:53,130 --> 00:07:55,390
+Now take the input for the third row.
+
+125
+00:07:56,670 --> 00:07:57,570
+So you will write.
+
+126
+00:07:57,600 --> 00:08:00,780
+So this indexes to zero, so to zero.
+
+127
+00:08:01,050 --> 00:08:02,970
+And this one is actually two one.
+
+128
+00:08:03,190 --> 00:08:04,530
+So you will write to one.
+
+129
+00:08:06,110 --> 00:08:07,430
+And again, since.
+
+130
+00:08:13,590 --> 00:08:19,110
+So this is taking input railway's, I am taking input Detroit, similarly, you can do the opposite
+
+131
+00:08:19,470 --> 00:08:21,300
+if you want to take input Calloway's.
+
+132
+00:08:22,300 --> 00:08:27,290
+What you can do first will first take the input for this will then take the input for this.
+
+133
+00:08:28,370 --> 00:08:31,560
+So Calombaris is very similar to the railways.
+
+134
+00:08:31,960 --> 00:08:37,850
+So for now, let us concentrate on railways, because everyone uses railways is more popular.
+
+135
+00:08:38,710 --> 00:08:40,690
+So if you want to take on board roadways.
+
+136
+00:08:42,040 --> 00:08:44,560
+What could we have to right, so if you can see.
+
+137
+00:08:46,170 --> 00:08:52,410
+What we are doing here, so I need to loops, I'm going to take in waterwise, so I need to loop so
+
+138
+00:08:52,470 --> 00:08:57,630
+one loop for iterating over the rules and second loop for ideating over the columns.
+
+139
+00:08:58,320 --> 00:09:00,180
+Simple, I'm repeating myself.
+
+140
+00:09:00,180 --> 00:09:01,770
+I want to take and throughways.
+
+141
+00:09:02,730 --> 00:09:09,570
+So I need to loop one loop related over the rules and when Loop will, I tripped over the columns simple.
+
+142
+00:09:10,600 --> 00:09:16,570
+And what we have to do so for each rule, for each rule, I have to take input for all the columns.
+
+143
+00:09:16,900 --> 00:09:19,900
+Similarly, for the second row, I will take input for all the columns.
+
+144
+00:09:19,900 --> 00:09:23,810
+Similarly, for the third row, I will take input for the third column for the forward through.
+
+145
+00:09:23,830 --> 00:09:25,570
+I will take input for the fourth column.
+
+146
+00:09:25,750 --> 00:09:26,700
+Do loops will be there.
+
+147
+00:09:27,370 --> 00:09:30,000
+So the outermost loop will iterate over the rules.
+
+148
+00:09:30,490 --> 00:09:32,060
+So let's say I equals zero.
+
+149
+00:09:32,440 --> 00:09:33,520
+Number of rules are.
+
+150
+00:09:35,110 --> 00:09:37,690
+So I listed him and I placeless.
+
+151
+00:09:39,010 --> 00:09:43,880
+So this is the loop for iterating over the rules now for each rule.
+
+152
+00:09:44,470 --> 00:09:49,270
+I have to I read all the columns, so one loop inside this big loop.
+
+153
+00:09:49,280 --> 00:09:51,380
+So this is for real.
+
+154
+00:09:51,430 --> 00:09:53,770
+So this loop is going to get rid of the rules.
+
+155
+00:09:54,250 --> 00:09:59,270
+And we know that for each rule, I have to take the input for all the columns.
+
+156
+00:09:59,290 --> 00:10:00,530
+So let's take a variable.
+
+157
+00:10:00,740 --> 00:10:03,250
+So, Jake Lizardo, how many columns are there.
+
+158
+00:10:03,280 --> 00:10:07,780
+So there are and columns so less than N g plus.
+
+159
+00:10:07,780 --> 00:10:13,510
+Plus and again the syntax is very simple, syntax is very simple in there.
+
+160
+00:10:13,520 --> 00:10:18,970
+Now that is B and I will write A through and git column.
+
+161
+00:10:19,630 --> 00:10:20,170
+Simple.
+
+162
+00:10:22,670 --> 00:10:24,220
+Etcetera, etcetera.
+
+163
+00:10:24,300 --> 00:10:27,810
+You can see I used the Rule and Giat column, so just the column.
+
+164
+00:10:28,140 --> 00:10:33,750
+So this is the way I will take input from the user in that I use to take input like this.
+
+165
+00:10:33,750 --> 00:10:37,200
+I call zero I list and then I placeless.
+
+166
+00:10:37,470 --> 00:10:39,780
+And I used to write Sini of I.
+
+167
+00:10:42,190 --> 00:10:43,830
+So the idea is very similar.
+
+168
+00:10:46,330 --> 00:10:52,870
+Here I was just reading over the area because the area was one dimensional, but here we have two dimensions.
+
+169
+00:10:53,230 --> 00:10:56,830
+Since we have two dimensions, then it is obvious that we need two loops.
+
+170
+00:10:57,070 --> 00:10:59,750
+So this is the outer loop and this one is the inner loop.
+
+171
+00:11:00,370 --> 00:11:01,370
+Again, very simple.
+
+172
+00:11:01,390 --> 00:11:06,790
+First, we have to get rid of the rules and for each rule I have to get it or the column because I'm
+
+173
+00:11:06,790 --> 00:11:08,470
+digging in input railway's.
+
+174
+00:11:11,500 --> 00:11:12,080
+What will happen?
+
+175
+00:11:12,100 --> 00:11:17,560
+So this will become outlook and this will become inner loop, just the opposite.
+
+176
+00:11:18,810 --> 00:11:24,690
+So now let us write the code and let's see how to create a truly matrix.
+
+177
+00:11:26,190 --> 00:11:31,080
+So let us create a two three matrix so added to that mission, Larry.
+
+178
+00:11:33,650 --> 00:11:39,110
+Let's say the name of the ADC, the number of rules hundred, and let's say the number of columns,
+
+179
+00:11:39,120 --> 00:11:39,680
+800.
+
+180
+00:11:42,050 --> 00:11:48,170
+Now, what they have to do for taking the input from the user, I need to take how many rules and how
+
+181
+00:11:48,170 --> 00:11:52,670
+many columns to give me how many rules and give me how many columns.
+
+182
+00:11:54,850 --> 00:11:59,510
+Now I am digging in, but always so I need one loop, I tripped over the rules.
+
+183
+00:11:59,950 --> 00:12:06,340
+So am I reading all the rules and now I need one loop for iterating over the columns.
+
+184
+00:12:06,550 --> 00:12:09,580
+So for each rule I have to I wrote the column so I equals.
+
+185
+00:12:09,850 --> 00:12:11,290
+So we have to take another variable.
+
+186
+00:12:11,290 --> 00:12:15,940
+So J equals zero G less than N and plus plus.
+
+187
+00:12:17,100 --> 00:12:27,240
+And then I will take scene if I I get through and get column, so this is exactly the same as we discussed
+
+188
+00:12:27,240 --> 00:12:27,480
+here.
+
+189
+00:12:28,230 --> 00:12:29,360
+Exactly same color.
+
+190
+00:12:29,910 --> 00:12:35,260
+So what I'm doing here, I am getting older and for each rule I am editing over the column.
+
+191
+00:12:35,640 --> 00:12:36,690
+Then take the input.
+
+192
+00:12:36,960 --> 00:12:38,760
+I throw and get column.
+
+193
+00:12:40,190 --> 00:12:43,820
+So let us try to run our program and let's see everything is working fine or not.
+
+194
+00:12:47,400 --> 00:12:50,580
+So first, I have to give the value of Immonen, so let's say.
+
+195
+00:12:51,680 --> 00:12:56,820
+I want tutus and three columns now it is waiting for my input.
+
+196
+00:12:56,850 --> 00:13:00,200
+So how many elements I have to give two to try to cross three.
+
+197
+00:13:00,200 --> 00:13:02,810
+So I have to give six elements selected.
+
+198
+00:13:02,830 --> 00:13:07,610
+The elements are one, two, three, four, five and six and press enter.
+
+199
+00:13:07,940 --> 00:13:09,810
+So basically, our code is working fine.
+
+200
+00:13:09,830 --> 00:13:12,040
+Our code is properly taking our input.
+
+201
+00:13:12,560 --> 00:13:17,030
+Now for this for this input, what will be our matrix?
+
+202
+00:13:17,030 --> 00:13:19,370
+So our matrix is going to be very simple.
+
+203
+00:13:20,910 --> 00:13:27,480
+So you give the value of so you give em equals two and you give an equal three and then you give six
+
+204
+00:13:27,480 --> 00:13:27,980
+entries.
+
+205
+00:13:28,320 --> 00:13:29,570
+So one, two, three, four, five, six.
+
+206
+00:13:29,580 --> 00:13:33,050
+So if you will draw the metrics, it will draw you to the missionary.
+
+207
+00:13:33,630 --> 00:13:34,620
+You need to lose.
+
+208
+00:13:34,620 --> 00:13:36,570
+So to lose and you need three columns.
+
+209
+00:13:37,110 --> 00:13:39,540
+So three columns and then you give six entries.
+
+210
+00:13:40,230 --> 00:13:42,540
+One, two, three, four, five and six.
+
+211
+00:13:43,890 --> 00:13:49,020
+This is to include three metrics, this is zero one and two, this is zero and one.
+
+212
+00:13:49,710 --> 00:13:50,760
+So this is the input.
+
+213
+00:13:51,240 --> 00:13:53,800
+Now, let us try to print this metrics.
+
+214
+00:13:53,940 --> 00:13:56,790
+So I want to print this metrics and I want to see.
+
+215
+00:13:58,460 --> 00:14:01,490
+How mathematics look like, so again, we have two options.
+
+216
+00:14:01,760 --> 00:14:07,280
+So first is to always paint the matrix, so print the first rule, if you will print the first one,
+
+217
+00:14:07,280 --> 00:14:07,730
+two, three.
+
+218
+00:14:07,970 --> 00:14:09,200
+Now print the second.
+
+219
+00:14:09,440 --> 00:14:10,700
+So four, five, six.
+
+220
+00:14:11,210 --> 00:14:14,000
+And the second option is let's print the column.
+
+221
+00:14:14,130 --> 00:14:15,230
+It's just like digging in.
+
+222
+00:14:15,300 --> 00:14:19,280
+But we can also print columns, for example, print the first column.
+
+223
+00:14:20,720 --> 00:14:27,170
+So it will be one for now print the second column, so it will be two five now print the third column,
+
+224
+00:14:27,180 --> 00:14:28,310
+so it will be three six.
+
+225
+00:14:29,030 --> 00:14:31,070
+So let's print it always.
+
+226
+00:14:31,070 --> 00:14:33,470
+And then we will also print the calombaris.
+
+227
+00:14:34,130 --> 00:14:35,510
+So for printing it always.
+
+228
+00:14:37,530 --> 00:14:43,350
+If I want to print throughways, how Will opened again, just like taking input, what do we do?
+
+229
+00:14:43,380 --> 00:14:46,130
+We will need to loop's what I want to do.
+
+230
+00:14:46,140 --> 00:14:52,220
+So for each row, for each row, I will add to do the column and I will print the content.
+
+231
+00:14:52,740 --> 00:14:56,960
+Similarly for the next row ovulated order column and I will print the content.
+
+232
+00:14:57,180 --> 00:14:58,220
+So I need two loops.
+
+233
+00:14:58,770 --> 00:15:01,310
+So the first loop is going to read over the rules.
+
+234
+00:15:01,310 --> 00:15:02,130
+So I equals zero.
+
+235
+00:15:02,130 --> 00:15:07,850
+I list them and I placeless and for each row what we have to do, we have to print the content.
+
+236
+00:15:07,860 --> 00:15:14,310
+So for printing the content, I have to iterate over the columns, which equals Ruggie less than angioplasties
+
+237
+00:15:14,850 --> 00:15:16,980
+and print the content to.
+
+238
+00:15:17,610 --> 00:15:23,510
+Then if that is B, I want to print I and column now after printing the rule.
+
+239
+00:15:23,540 --> 00:15:25,740
+So after printing the rule.
+
+240
+00:15:26,190 --> 00:15:28,530
+After printing the rule, I have to go to the next.
+
+241
+00:15:28,770 --> 00:15:32,310
+So for going to the next row I will write code and line.
+
+242
+00:15:33,510 --> 00:15:37,200
+Simple, so let us bring our mattocks throughways.
+
+243
+00:15:38,910 --> 00:15:45,780
+So this line is basically for going to the next room, simple, so we will give this input.
+
+244
+00:15:46,870 --> 00:15:50,230
+And let us bring to Royce, so let's see.
+
+245
+00:15:53,450 --> 00:16:01,250
+So overprinting Roys, let me right here I am branding always, and this is also always so we can just
+
+246
+00:16:01,250 --> 00:16:05,260
+copy the code copied and pasted here.
+
+247
+00:16:06,200 --> 00:16:10,910
+So what we are doing, instead of seeing what I will write, I will write code Miskelly.
+
+248
+00:16:10,910 --> 00:16:17,450
+We are printing the content and after printing Vendel, so for going to the next room you will write
+
+249
+00:16:17,450 --> 00:16:19,400
+code and line and that's all.
+
+250
+00:16:19,700 --> 00:16:21,110
+So this is always print.
+
+251
+00:16:23,470 --> 00:16:28,870
+So I have basically two rows and three columns and I have to give six elements, so the elements are
+
+252
+00:16:28,870 --> 00:16:31,740
+one, two, three, four, five and six.
+
+253
+00:16:32,320 --> 00:16:35,590
+And this is so OK, so I didn't give this piece.
+
+254
+00:16:35,590 --> 00:16:36,880
+So that's why they are printing.
+
+255
+00:16:37,750 --> 00:16:40,330
+That's why that's why my output is.
+
+256
+00:16:41,940 --> 00:16:43,650
+Veered, so let's give the space.
+
+257
+00:16:45,190 --> 00:16:49,780
+So I am giving spaces between the elements now, our output will be in correctly.
+
+258
+00:16:51,380 --> 00:16:54,260
+Two rows, three columns now, degree of six elements.
+
+259
+00:16:54,320 --> 00:16:56,800
+One, two, three, four, five and six.
+
+260
+00:16:57,530 --> 00:17:02,330
+So this is the content of the two dimensional area, always one, two, three and four, five, six.
+
+261
+00:17:02,570 --> 00:17:05,960
+You can see one, two, three and four, five, six.
+
+262
+00:17:06,560 --> 00:17:09,950
+So I will call this printing railway's output in the correct manner.
+
+263
+00:17:11,320 --> 00:17:18,910
+Now, let's try to print calombaris, so if you want to print calombaris, what do you have to do?
+
+264
+00:17:19,660 --> 00:17:23,760
+Again, very simple, but will do the show for each column.
+
+265
+00:17:24,580 --> 00:17:25,030
+I have to.
+
+266
+00:17:25,030 --> 00:17:26,110
+I read all the rules.
+
+267
+00:17:26,920 --> 00:17:28,320
+Just we will do the opposite.
+
+268
+00:17:29,410 --> 00:17:30,160
+But I'm saying.
+
+269
+00:17:31,430 --> 00:17:33,440
+So what was it always?
+
+270
+00:17:34,850 --> 00:17:42,140
+So the devices I trade all the rules and for each little printed the column.
+
+271
+00:17:43,320 --> 00:17:44,730
+What Columbus's.
+
+272
+00:17:47,440 --> 00:17:53,820
+You read over the column and for each column, you will print that simple.
+
+273
+00:17:54,130 --> 00:17:55,990
+So basically, what will be our court?
+
+274
+00:17:56,440 --> 00:17:58,190
+So our court will look like this.
+
+275
+00:17:58,630 --> 00:18:00,070
+First, we have to treat.
+
+276
+00:18:01,090 --> 00:18:03,580
+Or the columns, so for our trading water column.
+
+277
+00:18:05,490 --> 00:18:08,430
+So I so I equals zero I.
+
+278
+00:18:09,460 --> 00:18:17,170
+List and so number of columns that end and I placeless, so I am I over the columns and for each column
+
+279
+00:18:17,170 --> 00:18:18,580
+I have to write it over the rules.
+
+280
+00:18:20,390 --> 00:18:22,310
+So remember, her name is Ruth.
+
+281
+00:18:24,220 --> 00:18:32,590
+And is the number of columns so you can see here rows and columns, similarly, this is columns and.
+
+282
+00:18:35,420 --> 00:18:41,510
+So am I reading over the rules now for each column, we have to iterate over the rules so J equals zero
+
+283
+00:18:41,600 --> 00:18:51,920
+G list and M g plus plus I will simply write out the name of the error is B, I want to print it column.
+
+284
+00:18:52,520 --> 00:18:54,110
+So if you want to print it column.
+
+285
+00:18:54,110 --> 00:18:55,190
+So I will come here.
+
+286
+00:18:56,270 --> 00:18:59,990
+And Getrude, so here it was IJI.
+
+287
+00:19:01,020 --> 00:19:02,990
+But here, what is I.
+
+288
+00:19:03,030 --> 00:19:09,810
+So this is a and this is G, so G is actually rule and first index.
+
+289
+00:19:09,860 --> 00:19:13,110
+So so this one, this is actually rule.
+
+290
+00:19:14,230 --> 00:19:15,310
+And this is Colin.
+
+291
+00:19:16,540 --> 00:19:26,020
+So here you have to ride first and then I because Jase wrote a column and after printing one column
+
+292
+00:19:26,620 --> 00:19:29,890
+for going to the next column, you will write out and line.
+
+293
+00:19:30,850 --> 00:19:33,670
+And so this is printing calombaris.
+
+294
+00:19:35,180 --> 00:19:38,590
+This is how we will print calombaris simple.
+
+295
+00:19:38,900 --> 00:19:43,430
+So what should be our output should be one four to five and then three six.
+
+296
+00:19:43,910 --> 00:19:45,260
+So let me write this code.
+
+297
+00:19:48,500 --> 00:19:49,910
+So this is a two way sprint.
+
+298
+00:19:52,430 --> 00:19:55,670
+Now I want to bring to Columbus, so let's spend.
+
+299
+00:19:58,670 --> 00:20:04,750
+Calombaris, so approach is very simple, we have to tread all the columns so close to zero, I listin
+
+300
+00:20:04,760 --> 00:20:09,720
+enablers, plus I am irritating all the columns and for each column I have to read over the rules.
+
+301
+00:20:09,770 --> 00:20:10,980
+So J equals zero.
+
+302
+00:20:11,540 --> 00:20:14,900
+Similarly, J List and M.G. Placeless.
+
+303
+00:20:15,900 --> 00:20:21,360
+And then I want to print so the name of the is be the name of that is.
+
+304
+00:20:21,600 --> 00:20:28,770
+So I want to print my gear through and I get a column and we will give Space's.
+
+305
+00:20:30,060 --> 00:20:36,720
+Between the elements and after printing the one column for going to the next column, right, she out
+
+306
+00:20:36,720 --> 00:20:37,180
+and line.
+
+307
+00:20:37,740 --> 00:20:39,820
+So this is all so this is column wise.
+
+308
+00:20:39,870 --> 00:20:40,530
+Now, let's see.
+
+309
+00:20:46,800 --> 00:20:52,230
+Number of Ruza to number of columns are three and the elements are one, two, three, four, five and
+
+310
+00:20:52,230 --> 00:20:52,590
+six.
+
+311
+00:20:53,520 --> 00:20:58,560
+So this is a revised print we have seen already, and this is called a misprint.
+
+312
+00:21:00,980 --> 00:21:03,320
+When four to five and six.
+
+313
+00:21:08,060 --> 00:21:09,050
+So you can compare.
+
+314
+00:21:16,790 --> 00:21:17,930
+So you can compare both.
+
+315
+00:21:17,960 --> 00:21:22,730
+So this is it always just like this one and this is calombaris.
+
+316
+00:21:24,130 --> 00:21:30,780
+When four to five and six, when four to five to six, so our goal is working 100 percent correct.
+
+317
+00:21:36,470 --> 00:21:37,820
+So this is the complete cold.
+
+318
+00:21:41,640 --> 00:21:45,390
+Now, in the next few days, we will discuss how we can initialize our Tooryalai.
+
+319
+00:21:45,570 --> 00:21:46,450
+I will see you there.
+
+320
+00:21:46,560 --> 00:21:47,040
+Bye bye.
+
